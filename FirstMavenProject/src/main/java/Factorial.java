@@ -22,3 +22,4 @@ if (num < 0) {
     fact = Factorialcalc(num);
     System.out.println("the factorial for " + num + " is " + fact + ".");}
 }
+//factorial
