@@ -29,5 +29,5 @@ public class ThisKeyWordStudent {
 		ThisKeyWordStudent s2=new ThisKeyWordStudent(122,"Anas","MBBS",16.875f);
 		s2.display();
 		
-	}
+	}//java is my fav
 }
