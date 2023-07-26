@@ -1,5 +1,7 @@
 package collectionsEg;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 public class Fruits {
 
 	public static void main(String[] args) {
@@ -12,11 +14,11 @@ ArrayList<String>vegitables=new ArrayList<String>();
 vegitables.add("potato");
 vegitables.add("lady finger");
 System.out.println(vegitables);
-Fruits.addAll(vegitables);
+//Fruits.addAll(vegitables);
 System.out.println(fruits);
 fruits.add(1,"pinapple");//1 st index specified adding object
 System.out.println(fruits);
-Fruits.addAll(2,vegitables);
+//Fruits.addAll(2,vegitables);
 //System.out.println(Fruits);
 System.out.println("Returning element:"+fruits.get(1));
 fruits.set(1,"grapes");
@@ -31,11 +33,11 @@ for (String f:fruits) {
 }
 Collections.sort(fruits);
 System.out.println(fruits);
-Iterator itr=Fruits.iterator();//getting the iterator
+Iterator itr=fruits.iterator();//getting the iterator
 while(itr.hasNext()) {//check if iterator has the element
 	System.out.println(itr.next());//printing the  elementsand move to next
 }
-HashSet<integer>
-	}
 
-}
+	}}
+
+
